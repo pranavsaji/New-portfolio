@@ -52,7 +52,7 @@ export default function Contact() {
             transition={{ delay: 0.4, duration: 0.6 }}
           >
             <Brain size={20} className="text-ai-cyan animate-pulse-ai" />
-            <span>Let's work together on something amazing</span>
+            <span>Let&apos;s work together on something amazing</span>
           </motion.p>
         </motion.div>
 
@@ -75,7 +75,7 @@ export default function Contact() {
                 animate={inView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
               </motion.p>
               {personalInfo.location && (
                 <motion.div 
